@@ -1,0 +1,117 @@
+div.header{
+    background-color: #999999;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 30px;
+    display: flex;
+   justify-content: space-between;
+   }
+    @media (min-width: 768px){
+   .menu, .menu_item, .backtotop{
+       display: none;
+   }
+   .menu{
+       padding: 6px;
+       width: 62px;
+   }
+   
+   }
+   
+    .menu:hover ~ .menu_item{
+        display: block;
+        background-color: red;
+    }
+   body{
+       margin: 0 !important;
+   }
+   
+   body *{
+       box-sizing: border-box;
+   }
+   
+   div.ourmenu{
+       text-align: center;
+       font-size: 30px;
+   }
+   
+   
+   
+   div.box{
+       width: 33.33%;
+       float: left;
+       padding:5px;
+   }
+   
+   div.chicken{ 
+       background-color: #999999;
+       font-size: 16px;
+       
+       
+   }
+   
+   div.beef{
+       background-color: #999999;
+       font-size: 16px;
+       
+       
+   }
+   
+   div.sushi{
+       background-color: #999999;
+       font-size: 16px;
+       
+       
+       
+   }
+   
+   div.subheading{
+       text-align: center;
+       font-size: 25px;
+   }
+   
+   p{
+       padding-left: 10px;
+       padding-right: 10px;
+   }
+   
+   @media (min-width: 768px) and (max-width:991px) {
+        div.box{
+       width: 50%;
+       padding-left: 0;
+   
+   }
+   div.box:last-child{ width: 100%; }
+   }
+   
+   @media (max-width: 767px){
+      div.box {
+       width: 100%;
+       padding-left: 0;
+       padding-right: 0;
+   }
+   
+   .menu_item{
+     display: none;
+     border: 1px solid black;
+   }
+   
+   .menu_item a {
+   text-align: center;
+   border-bottom: 1px solid black;
+   text-decoration: none;
+   display: block;
+   font-size: 18px;
+   padding: 10px;
+   
+   
+   }
+   
+   
+   }
+   
+   
+   
+   
+   
